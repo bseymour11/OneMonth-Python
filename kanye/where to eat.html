@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Happy Hour App - How about a drink!?">
+		<meta name="keywords" content="happy hour, drink, beers">
+
+		<title>Where should we eat today??</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script>
+			alert("What do you want for dinner?")
+			var weekday = prompt("What day of the week is it?");
+			//Places to eat. ADD TO
+				if (weekday==="Sunday") {alert("No Chick-Fil-A :(")
+					var restaurants = ["BJ's" , "R-Taco" , "Chipotle" , "Chinese" , "Olive Garden" , "Roosters"]}
+					else {var restaurants = ["Chick-Fil-A" , "BJ's" , "R-Taco" , "Chipotle" , "Chinese" , "Olive Garden" , "Roosters"]}
+
+
+			var randomNumber = Math.floor(Math.random()*restaurants.length);
+
+			var place = restaurants[randomNumber];
+
+			document.write("How about we get <strong>" + place + "</strong>?");
+			
+		</script>
+	</head>
+	<body>
+		<!-- PAGE CONTENT WILL BE PRINTED HERE --> 
+	</body>
+</html>
