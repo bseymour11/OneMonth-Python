@@ -1,2 +1,0 @@
-# OneMonth-Python
-# OneMonth-Python
