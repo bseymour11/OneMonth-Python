@@ -1,0 +1,10 @@
+#Bohemian Rhapsody - Queen
+print("Mama, just killed a man")
+print("Put a gun against his head")
+print("Pulled my trigger, now he's dead")
+print()
+print("Mama, life had just begun")
+print("and now I've gone and thrown it all away..")
+print("Mama, ooh didn't mean to make you cry")
+print("If I'm not back again this time tomorrow")
+print("Carry on, carry on as if nothin' really matters")
